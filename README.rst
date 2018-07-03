@@ -1,15 +1,13 @@
-.. These are the Travis-CI and Coveralls badges for your repository. Replace
-   your *github_repository* and uncomment these lines by removing the leading
-   two dots.
+============
+PyCellFinder
+============
 
-.. .. image:: https://travis-ci.org/*github_repository*.svg?branch=master
-    :target: https://travis-ci.org/*github_repository*
+.. image:: https://travis-ci.org/linuxluigi/PyCellFinder.svg?branch=master
+    :target: https://travis-ci.org/linuxluigi/PyCellFinder
 
-.. .. image:: https://coveralls.io/repos/github/*github_repository*/badge.svg?branch=master
-    :target: https://coveralls.io/github/*github_repository*?branch=master
+.. image:: https://coveralls.io/repos/github/linuxluigi/PyCellFinder/badge.svg?branch=master
+    :target: https://coveralls.io/github/linuxluigi/PyCellFinder?branch=master
 
-
-You are seeing this description because the package owner is lazy and did not
-provide a detailed description for its project ;-)
-
-Since you are here, please help with the PyCellFinder's documentation!
+.. image:: https://readthedocs.org/projects/pycellfinder/badge/?version=latest
+    :target: https://pycellfinder.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
