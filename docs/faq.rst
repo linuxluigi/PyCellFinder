@@ -5,14 +5,6 @@ Frequently asked questions
 Usage
 =====
 
-Why is this file empty?
------------------------
-
-Because it was created automatically by python-boilerplate__ and the package
-author is too busy coding and did not provide a proper FAQ section ;-)
-
-..: http://github.com/fabiommendes/python-boilerplate/
-
 Concepts
 ========
 

@@ -19,5 +19,9 @@ src/pycellfinder/__meta__.py
 # IDEs
 .idea/
 
+# Virtual-Enviroment
+/venv
+/env
+
 # Testing and temporary files
 .tox/

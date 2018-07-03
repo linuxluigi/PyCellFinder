@@ -45,10 +45,16 @@ setup(
         'Topic :: Software Development :: Libraries',
     ],
 
+    entry_points={
+        "console_scripts": ['pycellfinder = pycellfinder.__main__:main']
+    },
+
     # Packages and dependencies
     package_dir={'': 'src'},
     packages=find_packages('src'),
     install_requires=[
+        "opencv-python >= 3.4.1.15",
+        "matplotlib >= 2.2.2",
     ],
     extras_require={
         'dev': [
