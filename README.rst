@@ -12,7 +12,7 @@ PyCellFinder
     :target: https://pycellfinder.readthedocs.io/en/latest/?badge=latest
     :alt: Documentation Status
 
-It's mostly a interface for `OpenCV <https://opencv.org/>`_ special make for counting cells on a picture.
+It's mostly an interface for `OpenCV <https://opencv.org/>`_ special make for counting cells on a picture.
 
 
 Quickinstall
@@ -29,11 +29,11 @@ Usage
 Minimal Params
 ^^^^^^^^^^^^^^
 
-To use this with the default params use::
+Use it with the default parameters::
 
     $ pycellfinder -i path_to_your_image
 
-The output are the found objects on the image.
+The output presents the count of found objects in the image.
 
 Optional Params
 ^^^^^^^^^^^^^^^
