@@ -4,7 +4,7 @@ Installation instructions
 
 PyCellFinder can be installed using pip::
 
-    $ python -m pip install PyCellFinder
+    $ python3 -m pip install git+git://github.com/linuxluigi/PyCellFinder.git
 
 This command will fetch the archive and its dependencies from the internet and
 install them. 

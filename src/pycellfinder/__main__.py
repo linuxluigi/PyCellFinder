@@ -37,12 +37,11 @@ def get_parser():
 
 def main(args=None):
     """
-    Main entry point for your project.
+    Main entry point.
 
     Args:
         args : list
-            A of arguments as if they were input in the command line. Leave it
-            None to use sys.argv.
+            A of arguments as if they were input in the command line.
     """
 
     parser = get_parser()
