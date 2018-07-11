@@ -59,7 +59,7 @@ def main(args=None):
             im = cv2.imread(args.input, cv2.IMREAD_GRAYSCALE)
 
             # Apply threshold
-            ret, im = cv2.threshold(im, args.threshold, 255, cv2.THRESH_BINARY)
+            ret, im = cv2.threshold(im, float(args.threshold), 255, cv2.THRESH_BINARY)
 
             kernel = np.ones((6, 6), np.uint8)
             erosion = cv2.erode(im, kernel, iterations=1)
